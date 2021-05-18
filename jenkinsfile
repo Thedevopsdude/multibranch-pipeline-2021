@@ -1,10 +1,9 @@
 pipeline{
-agent any
-stages{
+ agent any
+  stages{
 stage('deploy '){
 
-echo 'deploy to abc environment'
-
-}
-}
+echo "deploy to abc environment" 
+  }
+ }
 }
